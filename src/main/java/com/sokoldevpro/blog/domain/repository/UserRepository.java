@@ -1,6 +1,6 @@
-package com.sokoldevpro.blog.repository;
+package com.sokoldevpro.blog.domain.repository;
 
-import com.sokoldevpro.blog.domain.User;
+import com.sokoldevpro.blog.domain.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

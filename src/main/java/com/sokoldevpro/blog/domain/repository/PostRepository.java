@@ -1,6 +1,6 @@
-package com.sokoldevpro.blog.repository;
+package com.sokoldevpro.blog.domain.repository;
 
-import com.sokoldevpro.blog.domain.Post;
+import com.sokoldevpro.blog.domain.entity.Post;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

@@ -1,11 +1,12 @@
-package com.sokoldevpro.blog.service;
+package com.sokoldevpro.blog.service.impl;
 
+import com.sokoldevpro.blog.service.LoginService;
 import org.springframework.stereotype.Service;
 
 import java.util.Objects;
 
 @Service
-public class UserServiceStubImpl implements UserService {
+public class LoginServiceStubImpl implements LoginService {
     @Override
     public boolean authenticate(String username, String password) {
         return Objects.equals(username, password);

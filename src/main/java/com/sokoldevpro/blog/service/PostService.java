@@ -1,6 +1,6 @@
 package com.sokoldevpro.blog.service;
 
-import com.sokoldevpro.blog.domain.Post;
+import com.sokoldevpro.blog.domain.entity.Post;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.sokoldevpro.blog.domain;
+package com.sokoldevpro.blog.domain.entity;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

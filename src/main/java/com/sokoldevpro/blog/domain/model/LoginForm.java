@@ -1,4 +1,4 @@
-package com.sokoldevpro.blog.domain;
+package com.sokoldevpro.blog.domain.model;
 
 import lombok.Data;
 

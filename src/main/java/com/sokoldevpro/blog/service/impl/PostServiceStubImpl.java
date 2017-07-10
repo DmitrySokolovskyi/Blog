@@ -1,7 +1,8 @@
-package com.sokoldevpro.blog.service;
+package com.sokoldevpro.blog.service.impl;
 
-import com.sokoldevpro.blog.domain.Post;
-import com.sokoldevpro.blog.domain.User;
+import com.sokoldevpro.blog.domain.entity.Post;
+import com.sokoldevpro.blog.domain.entity.User;
+import com.sokoldevpro.blog.service.PostService;
 import org.springframework.stereotype.Service;
 
 import java.util.*;

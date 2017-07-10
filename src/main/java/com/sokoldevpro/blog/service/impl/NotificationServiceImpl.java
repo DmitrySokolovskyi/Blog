@@ -1,5 +1,6 @@
-package com.sokoldevpro.blog.service;
+package com.sokoldevpro.blog.service.impl;
 
+import com.sokoldevpro.blog.service.NotificationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

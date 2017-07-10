@@ -1,4 +1,4 @@
-package com.sokoldevpro.blog.domain;
+package com.sokoldevpro.blog.domain.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.util.Date;
 
-@Data @NoArgsConstructor
-@Table (name = "post") @EqualsAndHashCode(callSuper = true)
+@Data @NoArgsConstructor @EqualsAndHashCode(callSuper = true)
+@Entity @Table (name = "post")
 public class Post extends PersistentEntity {
 
     @Column(nullable = false, length = 300)
