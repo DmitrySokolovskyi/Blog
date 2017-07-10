@@ -4,12 +4,10 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
 import java.util.Set;
 
 @Data @NoArgsConstructor
 @EqualsAndHashCode(callSuper = true)
-@Entity
 public class User extends PersistentEntity {
 
     private String username;
@@ -17,4 +15,10 @@ public class User extends PersistentEntity {
     private String fullName;
 
     private Set<Post> posts ;
+
+    public User(Long id, String username, String fullName) {
+        this.id = id;
+        this.username = username;
+        this.fullName = fullName;
+    }
 }

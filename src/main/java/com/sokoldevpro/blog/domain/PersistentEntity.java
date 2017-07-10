@@ -1,16 +1,8 @@
 package com.sokoldevpro.blog.domain;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.MappedSuperclass;
-
-import static javax.persistence.GenerationType.IDENTITY;
-
-@MappedSuperclass
 public class PersistentEntity {
 
-    @Id @GeneratedValue(strategy = IDENTITY)
-    private Long id;
+    Long id;
 
     public Long getId() {
         return id;
